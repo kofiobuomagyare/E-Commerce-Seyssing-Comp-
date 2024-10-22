@@ -1,2 +1,14 @@
+# Ignore sensitive files
 .env
 config.php
+# Ignore composer dependencies
+/vendor/
+
+# Ignore IDE-specific files (like for VSCode)
+.vscode/
+
+# Ignore log files, cache, and temporary files
+*.log
+*.tmp
+/cache/
+/logs/
